@@ -361,8 +361,22 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: auto;
+}
+
+#projects img[alt="Project-3"] {
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+#projects .detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#projects .btn-container {
+  margin-top: auto;
 }
 
 .project-title {
